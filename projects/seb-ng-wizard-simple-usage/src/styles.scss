@@ -1,0 +1,53 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+@import '@sebgroup/bootstrap/scss/core';
+@import '@sebgroup/bootstrap/scss/styles/reboot';
+@import '@sebgroup/bootstrap/scss/styles/type';
+@import '@sebgroup/bootstrap/scss/styles/close';
+@import '@sebgroup/bootstrap/scss/styles/code';
+@import '@sebgroup/bootstrap/scss/styles/alert';
+@import '@sebgroup/bootstrap/scss/styles/utilities';
+@import '@sebgroup/bootstrap/scss/styles/scroll';
+@import '@sebgroup/bootstrap/scss/styles/buttons';
+@import '@sebgroup/bootstrap/scss/styles/forms';
+@import '@sebgroup/bootstrap/scss/styles/card';
+@import '@sebgroup/bootstrap/scss/styles/custom-forms';
+@import '@sebgroup/bootstrap/scss/styles/tables';
+@import '@sebgroup/bootstrap/scss/styles/grid';
+@import '@sebgroup/bootstrap/scss/styles/animations';
+@import '@sebgroup/bootstrap/scss/styles/transitions';
+@import '@sebgroup/bootstrap/scss/styles/nav';
+@import '@sebgroup/bootstrap/scss/styles/navbar';
+@import '@sebgroup/bootstrap/scss/styles/list-group';
+@import '@sebgroup/fonts/scss/seb-fonts';
+
+
+.navbar {
+    padding-left: 3rem !important;
+    font-weight: 500;
+    height:4.5rem !important;
+  }
+  
+  nav[_ngcontent-itw-c11] {
+    top: 0;
+    z-index: 1020;
+    height: 4.5rem !important;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  
+  .navbar-brand {
+    padding-left: 3.5rem;
+    font-weight: $navbar-brand-font-weight;
+    &::before {
+      content: '';
+      display: inline-block;
+      background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAAq1BMVEUBFqP///8AAJwAEKMBFqUAAKEBF6FrcrXZ3fO1udyWms0AAJYAGJ7///0AEaEAD6Xr7vpucrErM6AAAJFqca1kZ6xASKYAFqsADKk7Q6IUHZ0fK6tOVqdLVK41QKU/R6vCx97x8/qepdPh5fi6wN91fr3a4OlhZrHIz+J+g77R1+U0PKmLkMmfqMpOUqdZX68qM6kADZEdIZkuOZRcZLzS1NuoqsV2gbOZnMPiTJOvAAACzklEQVRoge2V23LaMBCGvbuSaK1TMIkxR9skEIPDIT0l7/9kXRno5CLpuLns6GNGNhr51+pfaZUkkUgkEolEIpFIJBL5AKFUaIUSIlFvupNEhc7zq/ikuBknzjliXeN98Ufae2/ChM4VSnn/OfmxcpjlkymKhGbzhbl0Uz5fklDalIuSZoeDUn9V+QBF0woA6hUaOQDI6Bz56B4eUMh1DbDBR4Cl/xfRYDWbLBJZWwi/RmIQdyqYoUZf4Cvilvthh0ewrefB/aIXygjvhVFjhU8W9odjA5u2i9wTT2gEndqZN2DrY3vCHwAtJ0X0810Ij88nh5QIbDi0Quq1pCD+TZ9G6HhZEruVfOen+wH2JCW5np4UWTC6WkqDFdxo9EKKzvOuO0Ml16uBTG2dpumabYHVYHCXz/qFPq2DmxZaL2957atWS69Y3Npgf52RDglNw6BzQuFn9eulpD7a2LDRt68WNhz6PkhstuiDOKxuVyG5OiQ05V1U102IvK4eXodtH2OoZREtR1uAhVN4rMIiGgwev0jUqYXsIn5jvBCSd8ty3DOdCZX1DS+xyAAGOE6kfN7eA+zlC+8Kp4oW4PEqrp1JPCe0dYL3WD/xzY7FKbMwxDGiIDnivaiH3SEinvPuKu74CNPC1q3nM9FL3M1e05PrVIbSbQfae72HWg/eExeqyNkuJCr6Rd5WD5m7RN5Y+zQpt7Wt8F1xjljvwD4d5nPVx3Zqd01Ll8gX0GHt/Cp+YvFw/HUQD4W4KG03ZtGnwIjp/DhNLuIy34UPN3Mp12/E77vIaydCncRy11s8meZ5+EZN+NCZQraLxRKlGc/ySbBV5fm0WOaZ41LszheIwmU5yftIc+jufBzIK65dirwPdYkvha7b8D9DngQVheq2t+ALhYj6VcVLheOGq6sKLT+79tob3sS5LIfxXb397F0XiUQikUgkEolEIv8rvwHP8zJyRpJS8AAAAABJRU5ErkJggg==");
+      height: 5.5rem !important;
+      width: 6.5rem !important;
+      position: absolute;
+      background-repeat: no-repeat;
+      top: 0;
+      left: 0;
+    }
+  }
